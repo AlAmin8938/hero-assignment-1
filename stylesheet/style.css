@@ -11,18 +11,20 @@
   background-image: url("../assets/Hero-bg.png");
   width: 1440px;
   height: 652px;
-  margin-top: 50px;
+  margin: 103px 42px 114px 42px;
  
 }
 
 .banner{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  text-align: center; 
+text-align: center;
+ 
 }
 
 .hero-bg img{
+  margin-top: 50px;
   margin-bottom: 40px ;
 }
 .banner-description h1{
@@ -32,4 +34,91 @@
 }
 .paragraph-text{
 color: 0D1321;
+}
+
+.banner-description button{
+  width: 244px;
+  height: 65px;
+  background-color: #0D1321;
+  color:#FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.banner-description p{
+  margin-bottom: 30px;
+}
+
+/*Middle Part*/
+
+.middle{
+  width: 1140px;
+  margin-left: 250px;
+  margin-right: 192px;
+  padding: 80px 97px;
+  background-color: rgba(13, 19, 33, 0.02);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.inspiration-part{
+  
+  width: 852px;
+  height: 113px;
+  
+
+}
+
+.inspiration-part h2{
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inspiration-part p{
+  font-size: 16px;
+  text-align: center;
+}
+
+.main-title{
+  width: 852px;
+  height: 113px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.main-title h2{
+text-align: center;
+margin-bottom: 30px;
+}
+.middle-1{
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+  margin-bottom: 40px;
+}
+
+.middle-1-des{
+  margin-left: 0px;
+}
+
+.general-button{
+  width: 171px;
+  height: 47px;
+}
+
+.middle-1-des h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.middle-1-des p{
+  font-size: 16px;
+  margin-bottom: 20px;
 }
