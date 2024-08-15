@@ -122,3 +122,29 @@ margin-bottom: 30px;
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+.inspiration-part-2{
+  width: 1140px;
+    margin-left: 247px;
+    margin-top: 90px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.1);
+}
+
+.inspiration-vedio {
+ text-align: center;
+ margin-bottom: 30px;
+}
+.inspiration-vedio h2{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+.inspiration-vedio p{
+  font-size: 16px;
+}
